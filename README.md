@@ -5,6 +5,8 @@ Hosted IPFS using Infura node:  https://ipfs.infura.io/ipfs/QmbgwbLgQt5rNdYN6G1g
 
 Mandatory to have an Ethereum account with fake ethers.
 
+A trial run is shown below: 
+
 #### Before voting: 
 ![Before voting](https://i.imgur.com/lTzu4Qo.png)
 
