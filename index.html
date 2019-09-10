@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FIFA The BEST Award </title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- MaterializeCSS    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+--> 
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<style>
+hr{ 
+  height: 2px;
+  color: red;
+  background-color: red;
+  border: none;
+}</style>
+  </head>
+
+
+  <body>
+    <div class="container ">
+      <div class="row">
+        <div class="col-lg-20">
+          <h1 class="text-center"><span class="glyphicon glyphicon-user"></span><br>FIFA The BEST 2019 Award </h1>
+<hr>
+          
+
+          <div id="loader">
+            <h3 class="text-center pink-text text-darken-4">Thank You for Voting...</h3>
+            <br>
+            <h4 class="text-center orange-text text-darken-4">Please <a href="javascript:window.location.reload(true)">reload</a> the page...</h4>
+          </div>
+
+          <div id="content" style=" display: none;">
+        <div class="container">
+            <table class="striped " >
+              <thead>
+                <tr class="danger" >
+            
+                  <th scope="col"> <span class="pink-text text-darken-4"><h5 class="text-left">Footballer</h5></span></th>
+                    <th scope="col"> <span class="orange-text text-darken-4"><h5 class="text-centered"></h5></span></th>
+                  <th scope="col"> <span class="orange-text text-darken-4"><h5 class="text-center">Votes</h5></span></th>
+                </tr>
+              </thead>
+              <tbody class="red-text text-darken-4" id="playersResults">
+              </tbody>
+            </table>
+         </div><!--container inside table-->
+<hr>
+            <form  onSubmit="App.castVote(); return false;">
+                <div class="form-group ">
+                  <label for="playersSelect"><span class="pink-text text-darken-4"><h5>Select Player</h5></spin></label>
+                  <select class="form-control pink-text text-darken-2" id="playersSelect">
+                  </select>
+                </div>
+            
+                <!--<button type="submit" class="btn btn-primary">Vote</button> -->
+                <button class="btn waves-effect waves-light orange darken-4" type="submit" name="action">Vote!
+                        <i class="material-icons right">arrow_upward</i>
+                </button>
+                 </hr>  
+            </form>
+            <p id="accountAddress" class="text-center green-text text-darken-4"></p>
+          
+          </div><!--content-->
+
+
+        </div>
+      </div>
+    </div>
+ <!--till eth account address-->
+   
+<div class="container" style="length: 140px; width: 1050px; " >
+    
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src="images/messi1.jpg">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p class="flow-text" >Lionel Andrés Messi is an Argentine professional footballer who plays as a forward and captains both Barcelona and the Argentina national team.</p>
+        </div>
+        <div class="card-action">
+          <a href="https://www.transfermarkt.com/lionel-messi/profil/spieler/28003"><span class="blue-text text-darken-4">Lionel Messi</span></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+<div class="container" style="length: 140px; width: 1050px; " >
+    
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src="images/ronaldo2.jpg">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p class="flow-text">Cristiano Ronaldo dos Santos Aveiro is a Portuguese professional footballer who plays as a forward for Italian club Juventus and captains the Portugal national team.</p>
+        </div>
+        <div class="card-action">
+          <a href="https://www.transfermarkt.co.in/cristiano-ronaldo/profil/spieler/8198"><span class="blue-text text-darken-4">Cristiano Ronaldo</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="container" style="width: 1050px; length: 140px;">
+  
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src="images/luka1.jpg">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p class="flow-text">Luka Modrić is a Croatian professional footballer who plays as a midfielder for Spanish club Real Madrid and is the captain of the Croatia national team. </p>
+        </div>
+        <div class="card-action">
+          <a href="https://www.transfermarkt.com/luka-modric/profil/spieler/27992"><span class="blue-text text-darken-4">Luka Modrić</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+    <div class="container " style="width: 1050px;">
+        <blockquote><h4>How to Vote for your favorite player.<i class="material-icons ">chat_bubble</i></h4>
+
+        <p class="flow-text"> <i class="material-icons ">chevron_right</i>Download and Install the Metamask browser extension.<br>
+                            <i class="material-icons ">chevron_right</i>Create a metamask account.<br>
+                             <i class="material-icons ">chevron_right</i>Get fake ethers from
+                                 <a href="http://faucet.metamask.io">faucet.metamask.io</a> onto your account. Thats it.<br> 
+                            <i class="material-icons ">chevron_right</i>Now you can Vote!<i class="material-icons ">fingerprint</i> but only once.
+         </p>
+        </blockquote>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
