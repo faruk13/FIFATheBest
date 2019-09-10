@@ -7,6 +7,8 @@ Hosted IPFS using Infura node:  https://ipfs.infura.io/ipfs/QmbgwbLgQt5rNdYN6G1g
 
 Before voting https://imgur.com/lTzu4Qo
 
+![Before voting](https://imgur.com/lTzu4Qo)
+
 Ethereum Account updated https://imgur.com/2inFmfp
 
 After voting https://imgur.com/8Hz4Eeu
