@@ -3,7 +3,6 @@ Voting for the best player on Blockchain.
 
 Hosted IPFS using Infura node:  https://ipfs.infura.io/ipfs/QmbgwbLgQt5rNdYN6G1gB8Z9AG43Tm1E9Pu3uczPz7Q4pj/
 
-### Imgur Links:
 
 #### Before voting
 ![Before voting](https://i.imgur.com/lTzu4Qo.png)
