@@ -2,7 +2,9 @@
 Voting for the best player on Blockchain.
 
 On Ropsten Network
-Hosted on IPFS using Infura node: https://ipfs.infura.io/ipfs/QmbgwbLgQt5rNdYN6G1gB8Z9AG43Tm1E9Pu3uczPz7Q4pj/
+
+Hosted on IPFS using Infura node:https://ipfs.infura.io/ipfs/QmbgwbLgQt5rNdYN6G1gB8Z9AG43Tm1E9Pu3uczPz7Q4pj/
+
 
 
 Mandatory to have an Ethereum account with fake ethers.
