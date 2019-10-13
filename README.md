@@ -6,6 +6,7 @@ On Ropsten Network
 Hosted on IPFS with Infura node: https://ipfs.infura.io/ipfs/QmbgwbLgQt5rNdYN6G1gB8Z9AG43Tm1E9Pu3uczPz7Q4pj/
 
 
+https://tinyurl.com/FIFATheBest
 
 Mandatory to have an Ethereum account with fake ethers.
 
